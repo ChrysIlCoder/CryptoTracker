@@ -13,7 +13,7 @@ export async function fetcher({ ...props }: IApiRequest): Promise<any> {
 
   const options: AxiosRequestConfig = {
     method: props.method,
-    baseURL: "https://cors-anywhere.herokuapp.com/https://api.coingecko.com/api/v3",
+    baseURL: "https://api.coingecko.com/api/v3",
     url: props.url,
     headers: {
       "Content-Type": "application/json",
