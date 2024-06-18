@@ -1,0 +1,28 @@
+.searched_result_item_container {
+  display: flex;
+  align-items: center;
+  border: solid 1px white;
+  color: white;
+  justify-content: space-between;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    &__img {
+      height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  &__specs {
+    display: grid;
+    text-align: center;
+  }
+}
